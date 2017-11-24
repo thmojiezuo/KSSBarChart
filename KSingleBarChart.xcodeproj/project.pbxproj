@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC15E5421FB55C89009E1ADB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC15E5411FB55C89009E1ADB /* AppDelegate.m */; };
+		FC15E5451FB55C89009E1ADB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC15E5441FB55C89009E1ADB /* ViewController.m */; };
+		FC15E5481FB55C89009E1ADB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC15E5461FB55C89009E1ADB /* Main.storyboard */; };
+		FC15E54A1FB55C89009E1ADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC15E5491FB55C89009E1ADB /* Assets.xcassets */; };
+		FC15E54D1FB55C89009E1ADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC15E54B1FB55C89009E1ADB /* LaunchScreen.storyboard */; };
+		FC15E5501FB55C89009E1ADB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC15E54F1FB55C89009E1ADB /* main.m */; };
+		FC15E55A1FB55C89009E1ADB /* KSingleBarChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC15E5591FB55C89009E1ADB /* KSingleBarChartTests.m */; };
+		FC15E5651FB55C89009E1ADB /* KSingleBarChartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC15E5641FB55C89009E1ADB /* KSingleBarChartUITests.m */; };
+		FC1AB8131FC7F24C00A3B69D /* KSSBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1AB8121FC7F24C00A3B69D /* KSSBarChart.m */; };
+		FC1AB8161FC7F27A00A3B69D /* KSSBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1AB8151FC7F27A00A3B69D /* KSSBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC15E5561FB55C89009E1ADB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC15E5351FB55C89009E1ADB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC15E53C1FB55C89009E1ADB;
+			remoteInfo = KSingleBarChart;
+		};
+		FC15E5611FB55C89009E1ADB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC15E5351FB55C89009E1ADB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC15E53C1FB55C89009E1ADB;
+			remoteInfo = KSingleBarChart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC15E53D1FB55C89009E1ADB /* KSingleBarChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSingleBarChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC15E5401FB55C89009E1ADB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC15E5411FB55C89009E1ADB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC15E5431FB55C89009E1ADB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC15E5441FB55C89009E1ADB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC15E5471FB55C89009E1ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC15E5491FB55C89009E1ADB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC15E54C1FB55C89009E1ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC15E54E1FB55C89009E1ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC15E54F1FB55C89009E1ADB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC15E5551FB55C89009E1ADB /* KSingleBarChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSingleBarChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC15E5591FB55C89009E1ADB /* KSingleBarChartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSingleBarChartTests.m; sourceTree = "<group>"; };
+		FC15E55B1FB55C89009E1ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC15E5601FB55C89009E1ADB /* KSingleBarChartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSingleBarChartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC15E5641FB55C89009E1ADB /* KSingleBarChartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSingleBarChartUITests.m; sourceTree = "<group>"; };
+		FC15E5661FB55C89009E1ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC1AB8111FC7F24C00A3B69D /* KSSBarChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSSBarChart.h; sourceTree = "<group>"; };
+		FC1AB8121FC7F24C00A3B69D /* KSSBarChart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSSBarChart.m; sourceTree = "<group>"; };
+		FC1AB8141FC7F27A00A3B69D /* KSSBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSSBar.h; sourceTree = "<group>"; };
+		FC1AB8151FC7F27A00A3B69D /* KSSBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSSBar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC15E53A1FB55C89009E1ADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC15E5521FB55C89009E1ADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC15E55D1FB55C89009E1ADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC15E5341FB55C89009E1ADB = {
+			isa = PBXGroup;
+			children = (
+				FC1AB8101FC7F1ED00A3B69D /* KSSBarChart */,
+				FC15E53F1FB55C89009E1ADB /* KSingleBarChart */,
+				FC15E5581FB55C89009E1ADB /* KSingleBarChartTests */,
+				FC15E5631FB55C89009E1ADB /* KSingleBarChartUITests */,
+				FC15E53E1FB55C89009E1ADB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC15E53E1FB55C89009E1ADB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC15E53D1FB55C89009E1ADB /* KSingleBarChart.app */,
+				FC15E5551FB55C89009E1ADB /* KSingleBarChartTests.xctest */,
+				FC15E5601FB55C89009E1ADB /* KSingleBarChartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC15E53F1FB55C89009E1ADB /* KSingleBarChart */ = {
+			isa = PBXGroup;
+			children = (
+				FC15E5401FB55C89009E1ADB /* AppDelegate.h */,
+				FC15E5411FB55C89009E1ADB /* AppDelegate.m */,
+				FC15E5431FB55C89009E1ADB /* ViewController.h */,
+				FC15E5441FB55C89009E1ADB /* ViewController.m */,
+				FC15E5461FB55C89009E1ADB /* Main.storyboard */,
+				FC15E5491FB55C89009E1ADB /* Assets.xcassets */,
+				FC15E54B1FB55C89009E1ADB /* LaunchScreen.storyboard */,
+				FC15E54E1FB55C89009E1ADB /* Info.plist */,
+				FC15E54F1FB55C89009E1ADB /* main.m */,
+			);
+			path = KSingleBarChart;
+			sourceTree = "<group>";
+		};
+		FC15E5581FB55C89009E1ADB /* KSingleBarChartTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC15E5591FB55C89009E1ADB /* KSingleBarChartTests.m */,
+				FC15E55B1FB55C89009E1ADB /* Info.plist */,
+			);
+			path = KSingleBarChartTests;
+			sourceTree = "<group>";
+		};
+		FC15E5631FB55C89009E1ADB /* KSingleBarChartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC15E5641FB55C89009E1ADB /* KSingleBarChartUITests.m */,
+				FC15E5661FB55C89009E1ADB /* Info.plist */,
+			);
+			path = KSingleBarChartUITests;
+			sourceTree = "<group>";
+		};
+		FC1AB8101FC7F1ED00A3B69D /* KSSBarChart */ = {
+			isa = PBXGroup;
+			children = (
+				FC1AB8111FC7F24C00A3B69D /* KSSBarChart.h */,
+				FC1AB8121FC7F24C00A3B69D /* KSSBarChart.m */,
+				FC1AB8141FC7F27A00A3B69D /* KSSBar.h */,
+				FC1AB8151FC7F27A00A3B69D /* KSSBar.m */,
+			);
+			path = KSSBarChart;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC15E53C1FB55C89009E1ADB /* KSingleBarChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC15E5691FB55C89009E1ADB /* Build configuration list for PBXNativeTarget "KSingleBarChart" */;
+			buildPhases = (
+				FC15E5391FB55C89009E1ADB /* Sources */,
+				FC15E53A1FB55C89009E1ADB /* Frameworks */,
+				FC15E53B1FB55C89009E1ADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSingleBarChart;
+			productName = KSingleBarChart;
+			productReference = FC15E53D1FB55C89009E1ADB /* KSingleBarChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC15E5541FB55C89009E1ADB /* KSingleBarChartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC15E56C1FB55C89009E1ADB /* Build configuration list for PBXNativeTarget "KSingleBarChartTests" */;
+			buildPhases = (
+				FC15E5511FB55C89009E1ADB /* Sources */,
+				FC15E5521FB55C89009E1ADB /* Frameworks */,
+				FC15E5531FB55C89009E1ADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC15E5571FB55C89009E1ADB /* PBXTargetDependency */,
+			);
+			name = KSingleBarChartTests;
+			productName = KSingleBarChartTests;
+			productReference = FC15E5551FB55C89009E1ADB /* KSingleBarChartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC15E55F1FB55C89009E1ADB /* KSingleBarChartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC15E56F1FB55C89009E1ADB /* Build configuration list for PBXNativeTarget "KSingleBarChartUITests" */;
+			buildPhases = (
+				FC15E55C1FB55C89009E1ADB /* Sources */,
+				FC15E55D1FB55C89009E1ADB /* Frameworks */,
+				FC15E55E1FB55C89009E1ADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC15E5621FB55C89009E1ADB /* PBXTargetDependency */,
+			);
+			name = KSingleBarChartUITests;
+			productName = KSingleBarChartUITests;
+			productReference = FC15E5601FB55C89009E1ADB /* KSingleBarChartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC15E5351FB55C89009E1ADB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = tenghu;
+				TargetAttributes = {
+					FC15E53C1FB55C89009E1ADB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					FC15E5541FB55C89009E1ADB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC15E53C1FB55C89009E1ADB;
+					};
+					FC15E55F1FB55C89009E1ADB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC15E53C1FB55C89009E1ADB;
+					};
+				};
+			};
+			buildConfigurationList = FC15E5381FB55C89009E1ADB /* Build configuration list for PBXProject "KSingleBarChart" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC15E5341FB55C89009E1ADB;
+			productRefGroup = FC15E53E1FB55C89009E1ADB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC15E53C1FB55C89009E1ADB /* KSingleBarChart */,
+				FC15E5541FB55C89009E1ADB /* KSingleBarChartTests */,
+				FC15E55F1FB55C89009E1ADB /* KSingleBarChartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC15E53B1FB55C89009E1ADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC15E54D1FB55C89009E1ADB /* LaunchScreen.storyboard in Resources */,
+				FC15E54A1FB55C89009E1ADB /* Assets.xcassets in Resources */,
+				FC15E5481FB55C89009E1ADB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC15E5531FB55C89009E1ADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC15E55E1FB55C89009E1ADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC15E5391FB55C89009E1ADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1AB8161FC7F27A00A3B69D /* KSSBar.m in Sources */,
+				FC1AB8131FC7F24C00A3B69D /* KSSBarChart.m in Sources */,
+				FC15E5451FB55C89009E1ADB /* ViewController.m in Sources */,
+				FC15E5501FB55C89009E1ADB /* main.m in Sources */,
+				FC15E5421FB55C89009E1ADB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC15E5511FB55C89009E1ADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC15E55A1FB55C89009E1ADB /* KSingleBarChartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC15E55C1FB55C89009E1ADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC15E5651FB55C89009E1ADB /* KSingleBarChartUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC15E5571FB55C89009E1ADB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC15E53C1FB55C89009E1ADB /* KSingleBarChart */;
+			targetProxy = FC15E5561FB55C89009E1ADB /* PBXContainerItemProxy */;
+		};
+		FC15E5621FB55C89009E1ADB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC15E53C1FB55C89009E1ADB /* KSingleBarChart */;
+			targetProxy = FC15E5611FB55C89009E1ADB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC15E5461FB55C89009E1ADB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC15E5471FB55C89009E1ADB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC15E54B1FB55C89009E1ADB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC15E54C1FB55C89009E1ADB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC15E5671FB55C89009E1ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC15E5681FB55C89009E1ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC15E56A1FB55C89009E1ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJ5C47MMK7;
+				INFOPLIST_FILE = KSingleBarChart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.KSingleBarChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC15E56B1FB55C89009E1ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJ5C47MMK7;
+				INFOPLIST_FILE = KSingleBarChart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.KSingleBarChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC15E56D1FB55C89009E1ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KSingleBarChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.KSingleBarChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSingleBarChart.app/KSingleBarChart";
+			};
+			name = Debug;
+		};
+		FC15E56E1FB55C89009E1ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KSingleBarChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.KSingleBarChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSingleBarChart.app/KSingleBarChart";
+			};
+			name = Release;
+		};
+		FC15E5701FB55C89009E1ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KSingleBarChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.KSingleBarChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KSingleBarChart;
+			};
+			name = Debug;
+		};
+		FC15E5711FB55C89009E1ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KSingleBarChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.KSingleBarChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KSingleBarChart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC15E5381FB55C89009E1ADB /* Build configuration list for PBXProject "KSingleBarChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC15E5671FB55C89009E1ADB /* Debug */,
+				FC15E5681FB55C89009E1ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC15E5691FB55C89009E1ADB /* Build configuration list for PBXNativeTarget "KSingleBarChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC15E56A1FB55C89009E1ADB /* Debug */,
+				FC15E56B1FB55C89009E1ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC15E56C1FB55C89009E1ADB /* Build configuration list for PBXNativeTarget "KSingleBarChartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC15E56D1FB55C89009E1ADB /* Debug */,
+				FC15E56E1FB55C89009E1ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC15E56F1FB55C89009E1ADB /* Build configuration list for PBXNativeTarget "KSingleBarChartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC15E5701FB55C89009E1ADB /* Debug */,
+				FC15E5711FB55C89009E1ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC15E5351FB55C89009E1ADB /* Project object */;
+}
